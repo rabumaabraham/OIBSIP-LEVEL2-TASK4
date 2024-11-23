@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome this is Secured Page!</h1>
+        <p>Only authorized users can view this content.</p>
+        <button class="button" onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        // Ensure user is logged in
+        const user = JSON.parse(localStorage.getItem('user'));
+        if (!user) {
+            alert('You are not logged in! Redirecting to login...');
+            window.location.href = 'index.html';
+        }
+
+        // Logout function
+        function logout() {
+            localStorage.removeItem('user');
+            alert('You have been logged out.');
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
