@@ -21,7 +21,7 @@ This is a simple login authentication system built with JavaScript (or another p
 
 ## Demo
 
-You can check the live demo of the project [here](https://rabumaabraham.github.io/Quiz-App/) 
+You can check the live demo of the project [here](https://rabumaabraham.github.io/OIBSIP-LEVEL2-TASK4/) 
 ## Technologies Used
 
 - HTML: Used to create the structure for the login and registration forms.
@@ -55,4 +55,5 @@ You can check the live demo of the project [here](https://rabumaabraham.github.i
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/575c582a-ae6a-4b19-9dad-02dd69b14cb0)
+![image](https://github.com/user-attachments/assets/8543db66-46c0-4821-bca4-7b68c8221a88)
+
