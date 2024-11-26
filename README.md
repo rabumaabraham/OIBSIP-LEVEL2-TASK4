@@ -1,6 +1,6 @@
 # Login Authentication System
 
-This is a simple login authentication system built with HTML, CSS and JavaScript during my web development and design internship at Oasis Infobyte. which allows users to register, log in, and access a secured page. This project demonstrates the basic principles of user authentication, including form validation, password hashing (if implemented), and session management to keep users logged in.
+This is a simple login authentication system built with HTML, CSS and JavaScript during my web development and designing internship at Oasis Infobyte. which allows users to register, log in, and access a secured page. This project demonstrates the basic principles of user authentication, including form validation, password hashing (if implemented), and session management to keep users logged in.
 
 ## Table of Contents
 
